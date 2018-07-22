@@ -46,8 +46,8 @@ public extension CALayer {
     shadowOpacity = shadow?.opacity ?? 0
     if let shadow = shadow {
       if let path = shadow.path {
-        shadowRadius = shadow.radius ?? 0
-        shadowOffset = shadow.offset ?? CGSize.zero
+        shadowRadius = shadow.radius 
+        shadowOffset = shadow.offset 
         shadowPath = path.cgPath
       } else {
         var shadowRect = bounds
