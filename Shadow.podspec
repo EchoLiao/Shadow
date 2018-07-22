@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Shadow"
-  s.version      = "0.2"
-s.summary      = "A simple object for adding/removing shadows from your `CALayer`s or `UIView`s."
+  s.version      = "0.3"
+  s.summary      = "A simple object for adding/removing shadows from your `CALayer`s or `UIView`s. -- Updated for Swift 4"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -54,7 +54,7 @@ view.applyShadow(shadow: nil)
 ```
                    DESC
 
-  s.homepage     = "https://github.com/cemolcay/Shadow"
+  s.homepage     = "https://github.com/yanda/Shadow"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ view.applyShadow(shadow: nil)
   #  profile URL.
   #
 
-  s.author             = { "cemolcay" => "ccemolcay@gmail.com" }
+  s.authors             = { "cemolcay" => "ccemolcay@gmail.com", "yanda" => "yanda@yanda.com"}
   # Or just: s.author    = "cemolcay"
   # s.authors            = { "cemolcay" => "ccemolcay@gmail.com" }
   # s.social_media_url   = "http://twitter.com/cemolcay"
@@ -91,10 +91,10 @@ view.applyShadow(shadow: nil)
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "11.3"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "11.3"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -106,7 +106,7 @@ view.applyShadow(shadow: nil)
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/cemolcay/Shadow.git", :tag => "0.2" }
+  s.source       = { :git => "https://github.com/yanda/Shadow.git", :tag => "0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
